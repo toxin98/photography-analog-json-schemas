@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lab Directory",
+  "type": "string",
+  "enum": [
+    "菲林公园",
+    "F212沸点",
+    "金陵银盐馆",
+    "南京丰悦",
+    "1350Film"
+  ]
+}
