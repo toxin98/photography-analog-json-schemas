@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Digitization",
+  "type": "object",
+
+  "oneOf": [
+    {
+      "oneOf": [
+        {
+          "properties": {
+            "method": { "const": "scanner" },
+            "brand": { "const": "Frontier" },
+            "model": { "enum": ["SP-3000"] }
+          },
+          "required": ["method", "brand", "model"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "method": { "const": "scanner" },
+            "brand": { "const": "Hasselblad" },
+            "model": { "enum": ["X5"] }
+          },
+          "required": ["method", "brand", "model"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "method": { "const": "scanner" },
+            "brand": { "const": "Noritsu" },
+            "model": { "enum": ["HS-1800", "V-30"] }
+          },
+          "required": ["method", "brand", "model"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    {
+      "properties": {
+        "method": { "const": "camera" },
+        "details": { "type": "string" }
+      },
+      "required": ["method"],
+      "additionalProperties": false
+    }
+  ]
+}
