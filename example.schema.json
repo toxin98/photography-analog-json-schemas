@@ -41,11 +41,11 @@
 
       "development": {
         "type": "object",
-        "required": ["lab", "process", "scanning"],
+        "required": ["lab", "process", "digitization"],
         "properties": {
           "lab": { "$ref": "./lab.schema.json" },
           "process": { "$ref": "./process.schema.json" },
-          "scanning": { "$ref": "./scanning.schema.json" }
+          "digitization": { "$ref": "./digitization.schema.json" }
         },
         "additionalProperties": false
       }

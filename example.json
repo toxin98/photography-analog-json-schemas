@@ -11,6 +11,7 @@
     "lab": "金陵银盐馆",
     "process": "ECN-2",
     "scanning": {
+      "method": "scanner",
       "brand": "Noritsu",
       "model": "HS-1800"
     }
@@ -29,8 +30,8 @@
     "lab": "画英雄",
     "process": "C-41",
     "scanning": {
-      "brand": "Frontier",
-      "model": "SP-3000"
+      "method": "camera",
+      "details": "5d4 + 24-70"
     }
   }
 }]
