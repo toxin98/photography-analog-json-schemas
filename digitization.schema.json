@@ -40,7 +40,7 @@
         "method": { "const": "camera" },
         "details": { "type": "string" }
       },
-      "required": ["method"],
+      "required": ["method", "details"],
       "additionalProperties": false
     }
   ]
