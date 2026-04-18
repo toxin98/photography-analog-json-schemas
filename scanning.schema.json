@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scanning",
+  "type": "object",
+  "required": ["brand", "model"],
+
+  "properties": {
+    "brand": {
+      "type": "string",
+      "enum": ["Digital Camera", "Frontier", "Hasselblad", "Noritsu"]
+    },
+    "model": {
+      "type": "string"
+    }
+  },
+
+  "additionalProperties": false,
+
+  "oneOf": [
+    {
+      "properties": {
+        "brand": { "const": "Frontier" },
+        "model": { "enum": ["SP-3000"] }
+      }
+    },
+    {
+      "properties": {
+        "brand": { "const": "Hasselblad" },
+        "model": { "enum": ["X5"] }
+      }
+    },
+    {
+      "properties": {
+        "brand": { "const": "Noritsu" },
+        "model": { "enum": ["HS-1800"] }
+      }
+    }
+  ]
+}
