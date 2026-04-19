@@ -23,20 +23,20 @@
       "oneOf": [
         {
           "properties": {
-            "brand": { "const": "Frontier" },
-            "model": { "enum": ["SP-3000"] }
+            "brand": { "const": "Fujifilm" },
+            "model": { "enum": ["Frontier SP-3000"] }
           }
         },
         {
           "properties": {
             "brand": { "const": "Hasselblad" },
-            "model": { "enum": ["X5"] }
+            "model": { "enum": ["Flextight X5"] }
           }
         },
         {
           "properties": {
             "brand": { "const": "Noritsu" },
-            "model": { "enum": ["HS-1800", "V-30"] }
+            "model": { "enum": ["HS-1800", "QSF-V30"] }
           }
         }
       ]
