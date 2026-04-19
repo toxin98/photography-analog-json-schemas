@@ -15,7 +15,7 @@
     {
       "properties": {
         "method": { "const": "scanner" },
-        "brand": { "type": "string" },
+        "brand": { "enum": ["Fujifilm", "Hasselblad", "Noritsu"] },
         "model": { "type": "string" }
       },
       "required": ["method", "brand", "model"],
