@@ -2,7 +2,6 @@
   "id": "0001",
   "film": "Kodak 5219",
   "camera": "Nikon F2",
-  "note": "Pushed to 1600",
   "date": {
     "started": "2021-09-28",
     "finished": "2022-02-16"
@@ -15,13 +14,13 @@
       "brand": "Noritsu",
       "model": "HS-1800"
     }
-  }
+  },
+  "note": "Pushed to 1600"
 },
 {
   "id": "0002",
   "film": "Fujifilm C200",
   "camera": "Pentax KX",
-  "note": "2014年过期胶卷",
   "date": {
     "started": "2022-03-09",
     "finished": "2022-05-11"
@@ -33,5 +32,6 @@
       "method": "camera",
       "details": "5d4 + 24-70"
     }
-  }
+  },
+  "note": "2014年过期胶卷"
 }]

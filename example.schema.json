@@ -6,10 +6,9 @@
   "items": {
     "type": "object",
     "required": ["id", "film", "camera", "date", "development", "note"],
-
     "additionalProperties": false,
-
     "properties": {
+
       "id": {
         "type": "string",
         "pattern": "^[0-9]{4}$",
